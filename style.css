@@ -1,0 +1,323 @@
+@font-face {
+    font-family: Walk the Moon;
+    src: url(walkthemoon.ttf);
+}
+
+@font-face {
+    font-family: Oxanium SemiBold;
+    src: url(Oxanium-SemiBold.ttf);
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.gradiente {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(45deg, black, rgb(71, 14, 112), rgb(63, 3, 63));
+    background-size: 200% auto;
+    animation: moveGradiente 6s ease infinite;
+}
+
+@keyframes moveGradiente {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    text-align: center;
+    height: 100px;
+    width: 90px;
+}
+
+
+.secao1 {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.backgroundvideo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.backgroundvideo video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.overlay {
+    /* Adicione o estilo para a div de overlay */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Defina a cor de fundo preta com 50% de opacidade */
+    z-index: 1;
+}
+
+.secao1 .box {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+
+
+.secao1 .box p {
+    text-align: center;
+    font-family: Walk the Moon;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.web {
+    color: blueviolet;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .adm .box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 2%;
+    }
+
+    .conteudo {
+        width: 100%;
+        text-align: center;
+    }
+} */
+
+.seta {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.seta i {
+    font-size: 100px;
+    color: rgb(175, 28, 233);
+    transition: 1s;
+}
+
+.seta i:hover {
+    color: rgb(74, 12, 133);
+    cursor: pointer;
+}
+
+.secao2 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-top: 0;
+    background-color: rgb(22, 22, 22);
+    color: beige;
+    overflow: hidden;
+}
+
+.secao2 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-family: Oxanium SemiBold;
+    margin: 0;
+    text-align: center;
+}
+
+.secao2 img {
+    margin: auto;
+}
+
+.secao3 {
+    height: 500px;
+    background-color: rgb(12, 0, 17);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.secao3 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-family: Oxanium SemiBold;
+    margin: 0;
+    text-align: left;
+    flex: 1;
+}
+
+.secao3 video {
+    max-width: 80%;
+    margin-right: 5%;
+    max-height: 95%;
+    border-radius: 80px 20px 80px 20px;
+    box-shadow: 2px 3px 30px rgb(138, 10, 170);
+}
+
+.bigdata {
+    color: blueviolet;
+}
+
+.secao4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    overflow: hidden;
+}
+
+.secao4 p {
+    color: white;
+    font-size: 30px;
+    font-family: Oxanium SemiBold;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.secao5 {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.backgroundvideo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.backgroundvideo video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.secao5 .box {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+
+
+.secao5 .box p {
+    text-align: center;
+    font-family: Oxanium SemiBold;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+footer {
+    margin-top: 0;
+    background-image: linear-gradient(45deg, black, rgb(95, 4, 95));
+}
+
+footer p {
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Oxanium SemiBold;
+    color: white;
+    margin-bottom: 3px;
+}
+
+
+.social {
+    text-align: center;
+}
+
+.social i {
+    letter-spacing: 5px;
+    color: white;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.direitos {
+    background-color: rgb(29, 29, 29);
+    margin-bottom: 0;
+}
+
+.direitos p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* REPONSIVIDADE */
+
+@media screen and (max-width: 600px) {
+    .seta i {
+        font-size: 40px;
+    }
+    
+    .secao2 p {
+        font-size: 15px;
+    }
+}
